@@ -1,0 +1,28 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+body.dark {
+  background-color: #333;
+  color: white;
+}
+
+body.light {
+  background-color: #ddd;
+  color: #000;
+}
+
+.row ul {
+  margin-top: 1rem;
+}
+
+.form-control.valid {
+  background-color: rgba(0, 255, 0, 0.09);
+  color: white !important;
+}
+
+.form-control.err {
+  background-color: rgba(255, 0, 0, 0.09);
+  color: white !important;
+}
