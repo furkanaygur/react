@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: Lato;
+}
+
+body.dark {
+  background-color: #333;
+  color: white;
+}
+
+body.light {
+  background-color: #ddd;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.btn {
+  margin-right: 0.5rem;
+  background-color: #b3b3b3;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  background-color: orange;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.list {
+  margin-top: 1rem;
+}
+
+.list-item {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.list-item-image {
+  width: 100px;
+}
+
+.list-item-info {
+  padding: 10px 0;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.add-btn {
+  width: 100px;
+  background-color: green;
+  color: white;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart {
+  margin-top: 1rem;
+}
+
+.remove-btn {
+  width: 100px;
+  background-color: red;
+  color: white;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-btn {
+  width: 25px;
+  background-color: #aaa;
+  color: white;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
